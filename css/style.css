@@ -1,0 +1,124 @@
+@charset: "UTF-8";
+
+/* default settings */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-family: sans-serif;
+	color: #00dc17;
+}
+
+a {
+	font-family: sans-serif;
+	font-size: 13px;
+	text-decoration: none;
+	color: #010101;
+}
+
+li, p {
+	font-family: sans-serif;
+	font-size: 16px;
+	color: #fff;
+}
+
+/* end default settings */
+
+#bg_img {
+	height: 100vh;
+	width: 100vw;
+	background-image: url(../images/background.jpg);
+	background-size: 100% auto;
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+
+#control_panel {
+	position: relative;
+	top: 3vh;
+	left: 15vw;
+	width: 70vw;
+	height: auto;
+	padding: 16px 0 16px 0;
+	border-radius: 20px;
+	background-color: rgb(0,0,0,0.5);
+}
+
+#logo_panel, .user_scooter {	
+	position: relative;
+	left: 10vw;
+	top: 0vh;
+	width: 50vw;
+	height: auto;
+}
+
+img {
+	display: block;
+	padding: 16px;
+}
+
+#logo_panel {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* green strip button */ 
+#panel_func {
+	background-color: #00dc17;
+	margin: 8px 0 24px 0;
+}
+
+#panel_func {
+	width: 100%;
+	padding: 8px 0 8px 0;
+	text-align: center;		
+}
+
+#panel_func a {
+	padding: 4px;
+	background-color: gainsboro;
+	border: 1px solid gray;
+}
+/* END green strip button */ 
+
+/* user scooter */ 
+
+.user_scooter {
+	padding: 16px 0 24px 0;
+}
+
+ul li {
+	line-height: 24px;
+	list-style: none;
+}
+
+
+.sqr_list::before {
+	content: "\2B1C";
+	color: #ffffff;
+	margin-right: 4px;
+}
+
+.arrow::before {
+	content: "\21A6";
+	color: #ffffff;
+	margin-right: 4px;
+}
+
+.charge {
+	width: 300px;
+	padding: 16px 0;
+	margin: 8px 0 0 0;
+}
+
+.full {	background-color: #2fff2f; width: 500px}
+.medium {	background-color: orange; width: 250px}
+.low {	background-color: red; width:50px;}
+/* END user scooter */ 
+
+
+
